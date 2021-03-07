@@ -1,0 +1,57 @@
+2021-03-07 18:49:12,750 INFO [1] SFTPSyncService - --------------------------------------------------
+2021-03-07 18:49:12,770 INFO [1] SFTPSyncService - Sync initialized.
+2021-03-07 18:49:12,773 INFO [1] SFTPSyncService - {"HostName":"177.54.220.148","PortNumber":9039,"UserName":"segsicert_confitec","SshPrivateKeyPath":"C:\\Users\\agnei.silva\\Downloads\\chaveprib3confitec.ppk","SshHostKeyFingerprint":"ssh-rsa 2048 A9C1t8qQIEKW+qvUxnFJibBz8V/xFbSbSg+QVOBNJG8=","FrequencyInSec":20,"FolderToMoveFilesSentRemote":"C:\\B3\\SFTP\\FILES\\IN_SENT\\","FoldersSettings":[{"LocalPath":"C:\\B3\\SFTP\\FILES\\IN\\","RemotePath":"/IN/","Direction":1},{"LocalPath":"C:\\B3\\SFTP\\FILES\\OUT\\","RemotePath":"/OUT/","Direction":0}]}
+2021-03-07 18:49:20,653 INFO [1] SFTPSyncService - winscp> option batch on
+2021-03-07 18:49:20,657 INFO [1] SFTPSyncService - batch           on        
+2021-03-07 18:49:20,659 INFO [1] SFTPSyncService - reconnecttime   120       
+2021-03-07 18:49:20,662 INFO [1] SFTPSyncService - winscp> option confirm off
+2021-03-07 18:49:20,665 INFO [1] SFTPSyncService - confirm         off       
+2021-03-07 18:49:20,668 INFO [1] SFTPSyncService - winscp> option reconnecttime 120
+2021-03-07 18:49:20,671 INFO [1] SFTPSyncService - reconnecttime   120       
+2021-03-07 18:49:20,674 INFO [1] SFTPSyncService - winscp> open "sftp://segsicert_confitec@177.54.220.148:9039" -hostkey="ssh-rsa 2048 A9C1t8qQIEKW+qvUxnFJibBz8V/xFbSbSg+QVOBNJG8=" -privatekey="C:\Users\agnei.silva\Downloads\chaveprib3confitec.ppk" -timeout=15 -rawsettings Shell="sudo%20su%20-"
+2021-03-07 18:49:20,677 INFO [1] SFTPSyncService - Searching for host...
+2021-03-07 18:49:20,679 INFO [1] SFTPSyncService - Connecting to host...
+2021-03-07 18:49:20,781 INFO [1] SFTPSyncService - Authenticating...
+2021-03-07 18:49:20,900 INFO [1] SFTPSyncService - Using username "segsicert_confitec".
+2021-03-07 18:49:20,962 INFO [1] SFTPSyncService - Authenticating with public key "rsa-key-20210208".
+2021-03-07 18:49:21,234 INFO [1] SFTPSyncService - Authenticated.
+2021-03-07 18:49:21,238 INFO [1] SFTPSyncService - Starting the session...
+2021-03-07 18:49:21,293 INFO [1] SFTPSyncService - Session started.
+2021-03-07 18:49:21,296 INFO [1] SFTPSyncService - Active session: [1] segsicert_confitec@177.54.220.148
+2021-03-07 18:49:21,444 INFO [1] SFTPSyncService - winscp> pwd
+2021-03-07 18:49:21,447 INFO [1] SFTPSyncService - /
+2021-03-07 18:49:42,457 INFO [1] SFTPSyncService - winscp> synchronize remote   -nopermissions -nopreservetime -transfer="binary" -criteria="size"  -- "C:\B3\SFTP\FILES\IN\" "/IN/"
+2021-03-07 18:49:42,460 INFO [1] SFTPSyncService - Comparing...
+2021-03-07 18:49:42,560 INFO [1] SFTPSyncService - Local 'C:\B3\SFTP\FILES\IN' => Remote '/IN'
+2021-03-07 18:49:42,564 INFO [1] SFTPSyncService - Synchronizing...
+2021-03-07 18:49:42,569 INFO [1] SFTPSyncService - Local 'C:\B3\SFTP\FILES\IN' => Remote '/IN'
+2021-03-07 18:49:43,553 INFO [1] SFTPSyncService - C:\B3\SFTP\FILES\IN\DIETA - .pdf |         434 KB |  536,8 KB/s | binary | 100%
+2021-03-07 18:49:44,044 INFO [1] SFTPSyncService - Upload of C:\B3\SFTP\FILES\IN\DIETA - .pdf succeeded
+2021-03-07 18:49:44,047 INFO [1] SFTPSyncService - Permissions of /IN/DIETA - .pdf kept with their defaults
+2021-03-07 18:49:44,050 INFO [1] SFTPSyncService - Timestamp of /IN/DIETA - .pdf kept with its default (current time)
+2021-03-07 18:50:43,494 ERROR [1] SFTPSyncService - Moving file C:\B3\SFTP\FILES\IN\DIETA - .pdf to C:\B3\SFTP\FILES\IN_SENT\
+2021-03-07 18:51:36,636 INFO [1] SFTPSyncService - winscp> option batch on
+2021-03-07 18:51:36,638 INFO [1] SFTPSyncService - batch           on        
+2021-03-07 18:51:36,642 INFO [1] SFTPSyncService - reconnecttime   120       
+2021-03-07 18:51:36,644 INFO [1] SFTPSyncService - winscp> option confirm off
+2021-03-07 18:51:36,647 INFO [1] SFTPSyncService - confirm         off       
+2021-03-07 18:51:36,651 INFO [1] SFTPSyncService - winscp> option reconnecttime 120
+2021-03-07 18:51:36,655 INFO [1] SFTPSyncService - reconnecttime   120       
+2021-03-07 18:51:36,658 INFO [1] SFTPSyncService - winscp> open "sftp://segsicert_confitec@177.54.220.148:9039" -hostkey="ssh-rsa 2048 A9C1t8qQIEKW+qvUxnFJibBz8V/xFbSbSg+QVOBNJG8=" -privatekey="C:\Users\agnei.silva\Downloads\chaveprib3confitec.ppk" -timeout=15 -rawsettings Shell="sudo%20su%20-"
+2021-03-07 18:51:36,661 INFO [1] SFTPSyncService - Searching for host...
+2021-03-07 18:51:36,665 INFO [1] SFTPSyncService - Connecting to host...
+2021-03-07 18:51:36,784 INFO [1] SFTPSyncService - Authenticating...
+2021-03-07 18:51:36,871 INFO [1] SFTPSyncService - Using username "segsicert_confitec".
+2021-03-07 18:51:36,938 INFO [1] SFTPSyncService - Authenticating with public key "rsa-key-20210208".
+2021-03-07 18:51:37,205 INFO [1] SFTPSyncService - Authenticated.
+2021-03-07 18:51:37,208 INFO [1] SFTPSyncService - Starting the session...
+2021-03-07 18:51:37,261 INFO [1] SFTPSyncService - Session started.
+2021-03-07 18:51:37,264 INFO [1] SFTPSyncService - Active session: [1] segsicert_confitec@177.54.220.148
+2021-03-07 18:51:37,419 INFO [1] SFTPSyncService - winscp> pwd
+2021-03-07 18:51:37,422 INFO [1] SFTPSyncService - /
+2021-03-07 18:51:38,758 INFO [1] SFTPSyncService - winscp> synchronize local   -nopermissions -nopreservetime -transfer="binary" -criteria="size"  -- "C:\B3\SFTP\FILES\OUT\" "/OUT/"
+2021-03-07 18:51:38,762 INFO [1] SFTPSyncService - Comparing...
+2021-03-07 18:51:38,884 INFO [1] SFTPSyncService - Local 'C:\B3\SFTP\FILES\OUT' <= Remote '/OUT'
+2021-03-07 18:51:38,887 INFO [1] SFTPSyncService - Nothing to synchronize.
+2021-03-07 18:51:41,837 INFO [1] SFTPSyncService - Sync finished
+2021-03-07 18:51:41,840 INFO [1] SFTPSyncService - --------------------------------------------------

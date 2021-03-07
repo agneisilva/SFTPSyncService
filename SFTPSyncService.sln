@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFTPSyncService", "SFTPSyncService\SFTPSyncService.csproj", "{F2110273-7F04-4F8D-B98D-9066FD9C8480}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SFTPSyncServiceInstaller", "SFTPSyncServiceInstaller\SFTPSyncServiceInstaller.vdproj", "{7C0956B6-A030-4D70-8442-B738D8286250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2110273-7F04-4F8D-B98D-9066FD9C8480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2110273-7F04-4F8D-B98D-9066FD9C8480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2110273-7F04-4F8D-B98D-9066FD9C8480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2110273-7F04-4F8D-B98D-9066FD9C8480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0956B6-A030-4D70-8442-B738D8286250}.Debug|Any CPU.ActiveCfg = Debug
+		{7C0956B6-A030-4D70-8442-B738D8286250}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74A8A99C-23FA-4A5E-BF76-D0CAEBF5012E}
+	EndGlobalSection
+EndGlobal

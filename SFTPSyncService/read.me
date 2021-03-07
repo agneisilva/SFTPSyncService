@@ -1,0 +1,27 @@
+﻿Desinstalar: 
+
+1) Regedit: 
+	HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SFTPSyncService
+
+2) CMD
+	sc.exe queryex "SFTPSyncService"
+	sc delete "SFTPSyncService"
+
+3) taskkill
+	taskkill /F /IM mmc.exe
+
+4) Remove Folder: 
+	c:/Arquivos e Programas/confitec/SFTPSyncService
+
+5) Force Reestart 
+	shutdown -r -f -t 0
+
+
+Erro 1053: O serviço não respondeu à requisição de início ou controle em tempo hábil
+https://taskcenter.mega.com.br/hc/pt-br/articles/360008957333-Web-Minutas-Erro-1053-O-servi%C3%A7o-n%C3%A3o-respondeu-%C3%A0-requisi%C3%A7%C3%A3o-de-in%C3%ADcio-ou-controle-em-tempo-h%C3%A1bil
+
+
+Revo Unistaller Portable para remover as dependências. 
+
+
+

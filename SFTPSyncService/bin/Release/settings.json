@@ -1,0 +1,22 @@
+{
+  "HostName": "177.54.220.148",
+  "PortNumber": 9039,
+  "UserName": "segsicert_confitec",
+  "SshPrivateKeyPath": "C:\\Users\\agnei.silva\\Downloads\\chaveprib3confitec.ppk",
+  "SshHostKeyFingerprint": "ssh-rsa 2048 A9C1t8qQIEKW+qvUxnFJibBz8V/xFbSbSg+QVOBNJG8=",
+  "FrequencyInSec": 20,
+  "ClearSendedFiles": 1,
+  "FolderToMoveFilesSentRemote": "C:\\B3\\SFTP\\FILES\\IN_SENT\\",
+  "FoldersSettings": [
+    {
+      "LocalPath": "C:\\B3\\SFTP\\FILES\\IN\\",
+      "RemotePath": "/IN/",
+      "Direction": 1 //Local ---> Remote
+    },
+    {
+      "LocalPath": "C:\\B3\\SFTP\\FILES\\OUT\\",
+      "RemotePath": "/OUT/",
+      "Direction": 0 //Remote ---> Local
+    }
+  ]
+}
